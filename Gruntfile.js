@@ -7,7 +7,7 @@ module.exports = function(grunt) {
         separator: ';'
       },
       dist: {
-        src: ['bower_components/Blob.js/Blob.js', 'bower_components/FileSaver/FileSaver.js', 'ics.js'],
+        src: ['public/lib/Blob.js/Blob.js', 'public/lib/FileSaver/FileSaver.js', 'ics.js'],
         dest: 'ics.deps.min.js'
       }
     },
